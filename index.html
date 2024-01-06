@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <div class="top-nav">
+        <p>Meet us at IT-Tage, December 11-14 <i class="fas fa-arrow-right"></i></p>
+    </div>
+
+  <!-- Main Header -->
+  <header>
+    <div class="header-container">
+        <div class="logo">
+            <img src="./images/logo/logo.png" alt="Company Logo">
+        </div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <div></div>
+            <div></div>
+        </label>
+        <nav class="main-nav">
+            <ul id="nav-menu">
+                <li><a href="#about">About us</a></li>
+                <li><a href="./ma.html">Ekke M&A</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#mission-section-container">Mission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <a href="#contact" class="contact-btn">Contact Us</a>
+            <div class="search-icon"><i class="fas fa-search"></i></div>
+            <div class="language-picker">EN</div>
+        </div>
+    </div>
+</header>
+
+  <section class="full-height-section">
+    <div class="content">
+      <div class="text-section">
+        <div class="gsd">
+          Global software development
+        </div>
+        <div class="dynamic-text-container">
+          partner in <span class="dynamic-text">
+            <b>IT staff augmentation</b>
+            <b>data analytics</b>
+            <b>FinTech</b>
+          </span>
+        </div>
+        <div class="db">
+          with 150+ developers on board
+        </div>
+      </div>
+      <div class="circle-button-wrapper">
+        <div class="ripple-effect"></div>
+        <div class="ripple-effect ripple-effect-2"></div>
+        <div class="ripple-effect ripple-effect-2 ripple-effect-3"></div>
+        <a href="#contact" class="circle-button">Let's talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors Section -->
+  <section class="sponsors-section">
+    <h2 class="sponsors-title">Recognized among the best, by the best</h2>
+    <div class="sponsors-container">
+      <img src="./images/sponsors/Aws_partner_logo.svg" alt="Sponsor 1" class="sponsor">
+      <img src="./images/sponsors/Clutch.svg" alt="Sponsor 2" class="sponsor">
+      <img src="./images/sponsors/Clutch_100_Fastest_Growth_2023.svg" alt="Sponsor 2" class="sponsor">
+      <img src="./images/sponsors/Inc. 5000 eng.svg" alt="Sponsor 2" class="sponsor">
+      <img src="./images/sponsors/shop_awards.svg" alt="Sponsor 2" class="sponsor">
+      <img src="./images/sponsors/TUV.svg" alt="Sponsor 2" class="sponsor">
+    </div>
+  </section>
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="services-container">
+      <div class="tabs-container">
+        <div class="services-tabs">
+          <div class="tab mb-10 active" onclick="showService('dedicated-team')">Dedicated Team</div>
+          <div class="tab mb-10" onclick="showService('custom-software-development')">Custom Software Development</div>
+          <div class="tab mb-10" onclick="showService('consulting-support')">IT Consulting & support</div>
+          <div class="tab" onclick="showService('digital-transformation')">Digital transformation</div>
+        </div>
+        <div class="vertical-line"></div>
+      </div>
+      <div class="service-content">
+        <div id="dedicated-team" class="service-detail show">
+          <h2 class="service-title">Dedicated Team</h2>
+          <div class="service-description">
+            <div class="service-column">
+              <h3>Front-end developers</h3>
+              <p>Extend your IT team with our skilled front-end developers keeping fully abreast of the
+                latest tech trends.</p>
+            </div>
+            <div class="service-column">
+              <h3>IT Consulting & Support</h3>
+              <p>Providing expert advice to optimize your IT infrastructure and operations.</p>
+            </div>
+            <div class="service-column">
+              <h3>Mobile developers</h3>
+              <p>High-grade development team with vast expertise in native and cross-platform mobile
+                applications for hire</p>
+            </div>
+            <div class="service-column">
+              <h3>Back-end developers</h3>
+              <p>We bring together top-notch back-end experts with deep knowledge of the server-side
+                development process</p>
+            </div>
+            <div class="service-column">
+              <h3>UI/UX designers</h3>
+              <p>Our UI/UX design team inspires user engagement and interaction</p>
+            </div>
+            <div class="service-column">
+              <h3>3D designers</h3>
+              <p>Visualize and animate your ideas in 3D with the help of our creative team</p>
+            </div>
+          </div>
+        </div>
+        <div id="custom-software-development" class="service-detail">
+          <h2 class="service-title">Custom Software Development</h2>
+          <div class="service-description">
+            <div class="service-column">
+              <h3>Mobile</h3>
+              <p>Top-notch iOS & Android mobile apps based on the latest technologies and global trends</p>
+            </div>
+            <div class="service-column">
+              <h3>Blockchain</h3>
+              <p>Custom blockchain-powered apps to facilitate services and drive digital future forward</p>
+            </div>
+            <div class="service-column">
+              <h3>Cloud</h3>
+              <p>We develop cloud-based apps and transfer client-server software to the cloud</p>
+            </div>
+            <div class="service-column">
+              <h3>Back-end developers</h3>
+              <p>We bring together top-notch back-end experts with deep knowledge of the server-side
+                development process</p>
+            </div>
+            <div class="service-column">
+              <h3>Data engineering</h3>
+              <p>We turn data into meaningful insights to improve business strategy and performance</p>
+            </div>
+          </div>
+        </div>
+        <div id="consulting-support" class="service-detail">
+          <h2 class="service-title">IT Consulting & support</h2>
+          <div class="service-description">
+            <div class="service-column">
+              <h3>IT audit</h3>
+              <p>We analyze businesses and projects to identify weaknesses and plan optimization</p>
+            </div>
+            <div class="service-column">
+              <h3>IT Consulting & Support</h3>
+              <p>Providing expert advice to optimize your IT infrastructure and operations.</p>
+            </div>
+            <div class="service-column">
+              <h3>IT consulting</h3>
+              <p>Our IT experts can help you optimize your business and get the most value</p>
+            </div>
+            <div class="service-column">
+              <h3>Solution architecture</h3>
+              <p>We build high-level solution architectures to be a basement of digital systems</p>
+            </div>
+            <div class="service-column">
+              <h3>R&D</h3>
+              <p>Our team develops innovative solutions using the latest technology findings</p>
+            </div>
+            <div class="service-column">
+              <h3>Prototyping</h3>
+              <p>We deliver highly detailed prototypes under tight deadlines</p>
+            </div>
+            <div class="service-column">
+              <h3>Maintenance</h3>
+              <p>Software maintenance services to ensure its robust security and high performance</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="digital-transformation" class="service-detail">
+          <h2 class="service-title">Digital transformation</h2>
+          <div class="service-description">
+            <div class="service-column">
+              <h3>Enterprise resource planning (ERP)</h3>
+              <p>Custom ERP systems, ensuring robust security and fast user adoption</p>
+            </div>
+            <div class="service-column">
+              <h3>Customer relationship management (CRM)</h3>
+              <p>CRM development services to open up game-changing sales and marketing opportunities</p>
+            </div>
+            <div class="service-column">
+              <h3>Business process management (BPM)</h3>
+              <p>Custom BPM systems to streamline and automate internal operations</p>
+            </div>
+            <div class="service-column">
+              <h3>Document & content management (DMS, CMS)</h3>
+              <p>Custom software platforms for document workflow enhancement and content management</p>
+            </div>
+            <div class="service-column">
+              <h3>UI/UX designers</h3>
+              <p>Our UI/UX design team inspires user engagement and interaction</p>
+            </div>
+            <div class="service-column">
+              <h3>Data analytics and visualization</h3>
+              <p>We facilitate uncovering business insights, making the best use of the available data</p>
+            </div>
+            <div class="service-column">
+              <h3>Human resource management (HRM)</h3>
+              <p>Electronic systems to facilitate HR department’s daily operations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- stat starts -->
+  <div class="stats-section">
+    <div class="stat">
+      <div class="stat-number">6+</div>
+      <div class="stat-label">years of expertise</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">150+</div>
+      <div class="stat-label">IT professionals</div>
+    </div>
+    <div class="stat hide-line">
+      <div class="stat-number">93%</div>
+      <div class="stat-label">recurring customers</div>
+    </div>
+    <div class="stat hide-line">
+      <div class="stat-number">250+</div>
+      <div class="stat-label">successful projects</div>
+    </div>
+  </div>
+  <!-- stat ends -->
+
+  <!-- mission section starts -->
+  <div id="mission-section-container" class="mission-section-container">
+    <div class="mission-section-header">
+      <span class="mission-section-header-title">Our mission</span>
+      <div class="mission-section-main">
+        <h1 class="mission-section-main-title">We develop the world</h1>
+        <div class="mission-section-text-content">
+          <p class="mission-section-paragraph">Ekke Ltd is not only a software development company but also a friendly
+            community of high-grade engineers striving to change the world through digital innovation. Leveraging all
+            our skills, knowledge and experience, we help our clients reach new heights and make the world a little
+            better.</p>
+          <p class="mission-section-paragraph">Our corporate mission is simple to formulate yet challenging to complete.
+            We create IT solutions. Together with our clients, we make the world a more comfortable and better place for
+            everyone.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mission section ends -->
+
+  <!-- event start -->
+
+
+  <div class="event-main-container">
+    <div class="conference-info-container">
+      <div class="conference-title">Let’s meet at a conference</div>
+      <div class="conference-details">
+        <img loading="lazy"
+          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/64ad576cb449c4910feffba34e52cbc00acaf95a69d9d800dbc860828ab8de01?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&"
+          class="conference-banner-image" />
+        <div class="event-details">
+          <div class="event-name">
+            E-commerce Berlin Expo
+            <br />
+
+          </div>
+          <div class="event-date-container">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/4599f3468663e922716629503c70f1575e5ea7e8bd69756460eb2e1d8ca83e1d?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&"
+              class="date-icon" />
+            <div class="event-date">22 February 2024</div>
+          </div>
+          <div class="event-location-container">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/03a9dcfba7d78de69b94471eca2ffbecfd50ccb4440010b786473557f1dc664c?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&"
+              class="location-icon" />
+            <div class="event-location">Berlin, Germany</div>
+          </div>
+          <div class="event-theme-container">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/22df826cd5d81428761623f85d4e9be5eda65006ae449d0366a5387e93413624?apiKey=55cae0ca0f984b7ab4859cca2d970ba8&"
+              class="theme-icon" />
+            <div class="event-theme">E-commerce</div>
+          </div>
+          <div class="meeting-cta">Book a meeting</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- event ends -->
+  <!-- contact us starts -->
+
+
+  <div class="content"  id="contact">
+
+    <div class="container">
+
+
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+
+          <div class="row align-items-center">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+
+              <h2 class="mb-5">Fill the form. <br> It's easy.</h2>
+
+              <form class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="fname" id="fname" placeholder="First name">
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="lname" id="lname" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="7"
+                      placeholder="Write your message"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                    <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+
+              <div id="form-message-warning mt-4"></div>
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+
+            </div>
+            <div class="col-lg-4 ml-auto">
+              <h3 class="mb-4">Let's talk about everything.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil deleniti itaque similique magni. Magni,
+                laboriosam perferendis maxime!</p>
+              <p><a class="read-more" href="#">Read more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact is ends -->
+
+  <section class="software-footer-section">
+    <div class="software-footer-row">
+      <div class="software-footer-column">
+        <h4>Company</h4>
+        <ul class="software-footer-links-list">
+          <li><a href="#">About Ekke Ltd</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Our Values</a></li>
+          <li><a href="#">Technologies</a></li>
+          <li><a href="#">Case Studies</a></li>
+        </ul>
+      </div>
+      <div class="software-footer-column">
+        <h4>Services</h4>
+        <ul class="software-footer-links-list">
+          <li><a onclick="showService('dedicated-team')" href="#services">Dedicated Team</a></li>
+          <li><a onclick="showService('custom-software-development')" href="#services">Custom Software Development</a></li>
+          <li><a onclick="showService('consulting-support')" href="#services">IT Consulting & support</a></li>
+          <li><a onclick="showService('digital-transformation')" href="#services">Digital transformation</a></li>
+        </ul>
+      </div>
+      <div class="software-footer-column">
+        <h4>Resources</h4>
+        <ul class="software-footer-links-list">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">eBooks & Whitepapers</a></li>
+          <li><a href="#">Webinars</a></li>
+          <li><a href="#">Open Source</a></li>
+          <li><a href="#">API Documentation</a></li>
+        </ul>
+      </div>
+      <div class="software-footer-column">
+        <h4>Careers</h4>
+        <p>
+          Join our team to create innovative solutions that make a difference. Check out the latest career opportunities
+          with us.
+        </p>
+        <a href="#" class="career-button">See Open Positions</a>
+        <div class="software-footer-social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://twitter.com/ekkeltd/" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/ekke-ltd/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
